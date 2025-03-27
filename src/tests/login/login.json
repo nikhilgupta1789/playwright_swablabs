@@ -1,0 +1,41 @@
+{
+    "data_sets" : [
+    {
+        "username" : "standard_user",
+        "password" : "secret_sauce",
+        "expected_result" : "success",
+        "scenario" : "Test Case 1: Login with 'standard_user' user"
+    },
+    {
+        "username" : "locked_out_user",
+        "password" : "secret_sauce",
+        "expected_result" : "success",
+        "scenario" : "Test Case 1: Login with 'locked_out_user' user"
+    },
+    {
+        "username" : "problem_user",
+        "password" : "secret_sauce",
+        "expected_result" : "success",
+        "scenario" : "Test Case 1: Login with 'problem_user' user"
+    },
+    {
+        "username" : "performance_glitch_user",
+        "password" : "secret_sauce",
+        "expected_result" : "success",
+        "scenario" : "Test Case 1: Login with 'performance_glitch_user' user"
+    },
+    {
+        "username" : "error_user",
+        "password" : "secret_sauce",
+        "expected_result" : "success",
+        "scenario" : "Test Case 1: Login with 'error_user' user"
+    },
+    {
+        "username" : "visual_user",
+        "password" : "secret_sauce",
+        "expected_result" : "success",
+        "scenario" : "Test Case 1: Login with 'visual_user' user"
+    }
+
+]
+}
