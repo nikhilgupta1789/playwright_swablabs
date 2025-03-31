@@ -37,7 +37,7 @@ Notes
 The tests are configured to generate an HTML report in the playwright-report directory.
 If you want to share the report, you can zip the playwright-report folder or use a tool like html-inline to create a single HTML file.
 
-**Test Case Details:**
+**##Test Case Details:**
 
 **1. Login functionality:**
 Test case to get login with different users/password - page object model, write once and test many times with different data sets
