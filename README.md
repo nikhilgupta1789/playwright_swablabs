@@ -36,3 +36,22 @@ Execute All Tests: Run the following command to execute all test scripts located
 Notes
 The tests are configured to generate an HTML report in the playwright-report directory.
 If you want to share the report, you can zip the playwright-report folder or use a tool like html-inline to create a single HTML file.
+
+**Test Case Details:**
+
+**1. Login functionality:**
+   Test case to get login with different users/password - page object model, write once and test many times with different data sets
+**2. Add to cart functionality:**
+   Test case to verify products should be added into cart using add to cart button
+**3. Sorting functionality:**
+   Test case to verify sorting should be applied to the listed products using Price (low to high) and validate products should be listed in ascending order by price
+**4. Checkout functionality:**
+   Test case to verify checkout of the prodcust added into carts and place an order and verify successfully order message
+**5. Reset App State:**
+   Test case to verify Remove button state should change to Add to cart back to original state after performing Reset App State  
+   
+**Defect(s) Identified:**
+
+**1. Remove button text not changes back into Add to cart after performing Reset App State**
+**Actual Behaviour:** Remove button text remains diplayed after performing Reset App state
+**Expected Behaviour:** Products button text should be displayed as Add to cart after performing Reset App State
