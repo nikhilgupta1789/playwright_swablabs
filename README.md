@@ -40,15 +40,15 @@ If you want to share the report, you can zip the playwright-report folder or use
 **Test Case Details:**
 
 **1. Login functionality:**
-   Test case to get login with different users/password - page object model, write once and test many times with different data sets
+Test case to get login with different users/password - page object model, write once and test many times with different data sets
 **2. Add to cart functionality:**
-   Test case to verify products should be added into cart using add to cart button
+Test case to verify products should be added into cart using add to cart button
 **3. Sorting functionality:**
-   Test case to verify sorting should be applied to the listed products using Price (low to high) and validate products should be listed in ascending order by price
+Test case to verify sorting should be applied to the listed products using Price (low to high) and validate products should be listed in ascending order by price
 **4. Checkout functionality:**
-   Test case to verify checkout of the prodcust added into carts and place an order and verify successfully order message
+Test case to verify checkout of the prodcust added into carts and place an order and verify successfully order message
 **5. Reset App State:**
-   Test case to verify Remove button state should change to Add to cart back to original state after performing Reset App State  
+Test case to verify Remove button state should change to Add to cart back to original state after performing Reset App State  
    
 **Defect(s) Identified:**
 
