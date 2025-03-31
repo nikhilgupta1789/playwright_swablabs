@@ -37,21 +37,32 @@ Notes
 The tests are configured to generate an HTML report in the playwright-report directory.
 If you want to share the report, you can zip the playwright-report folder or use a tool like html-inline to create a single HTML file.
 
-**##Test Case Details:**
+# Test Case Details:
 
-**1. Login functionality:**
-Test case to get login with different users/password - page object model, write once and test many times with different data sets
-**2. Add to cart functionality:**
-Test case to verify products should be added into cart using add to cart button
-**3. Sorting functionality:**
-Test case to verify sorting should be applied to the listed products using Price (low to high) and validate products should be listed in ascending order by price
-**4. Checkout functionality:**
-Test case to verify checkout of the prodcust added into carts and place an order and verify successfully order message
-**5. Reset App State:**
-Test case to verify Remove button state should change to Add to cart back to original state after performing Reset App State  
-   
-**Defect(s) Identified:**
+## 1. Login Functionality:
+- **Test case**: Verify login with different users/passwords.
+- **Approach**: Use the Page Object Model (POM). Write once and test many times with different data sets.
 
-**1. Remove button text not changes back into Add to cart after performing Reset App State**
-**Actual Behaviour:** Remove button text remains diplayed after performing Reset App state
-**Expected Behaviour:** Products button text should be displayed as Add to cart after performing Reset App State
+## 2. Add to Cart Functionality:
+- **Test case**: Verify that products are added into the cart using the "Add to Cart" button.
+
+## 3. Sorting Functionality:
+- **Test case**: Verify sorting functionality for listed products based on price.
+  - **Sorting criteria**: Price (Low to High).
+  - **Expected outcome**: Products should be listed in ascending order by price.
+
+## 4. Checkout Functionality:
+- **Test case**: Verify the checkout process for products added to the cart.
+  - **Expected outcome**: Verify the successful order placement and a confirmation message.
+
+## 5. Reset App State:
+- **Test case**: Verify the "Remove" button state changes back to "Add to Cart" after performing Reset App State.
+  - **Expected outcome**: "Remove" button text should revert to "Add to Cart" after the reset.
+
+---
+
+# Defect(s) Identified:
+
+## 1. Remove Button Text Not Changing After Reset:
+- **Actual Behavior**: The "Remove" button text does not change back to "Add to Cart" after performing Reset App State.
+- **Expected Behavior**: The "Remove" button text should be displayed as "Add to Cart" after performing Reset App State.
